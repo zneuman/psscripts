@@ -82,7 +82,3 @@ Function Get-CertExpire {
         Remove-Item $attachment
     }
 }
-
-Get-Help Get-CertExpire -Examples
-update-help
-Get-CertExpire -notificationDays 4000 -emailUserName zneuman -emailFromAddress zneuman@api-wi.com -emailToAddress zachary.neuman@ge.com -emailSubject "zomg certs" -emailBody "zomg more certs" -smtpServer mochila.api-wi.com -smtpPort 25
